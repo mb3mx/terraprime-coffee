@@ -1,0 +1,50 @@
+#whatsapp-icon {
+    position: fixed;
+    bottom: 20px; /* Ajusta según tu necesidad */
+    right: 20px; /* Ajusta según tu necesidad */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+#whatsapp-icon img {
+    width: 50px; /* Ajusta el tamaño del icono según tu necesidad */
+    height: auto;
+    cursor: pointer;
+}
+
+ /* Estilos para la ventana emergente */
+ #float-form {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 6% !important;
+    width: 25% !important;
+    background-image: url(https://cloudfront-eu-central-1.images.arcpublishing.com/diarioas/7L3CG752LVMWBPX75F4W3Y7QGI.jpg);
+    padding: 2%;
+    border-radius: 10px;
+    color: white;
+}
+
+#float-form input[type="text"],
+#float-form input[type="email"],
+#float-form input[type="tel"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#btn-send-whatsapp  {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: green;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* Estilos para el botón de cerrar */
+#close-form {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    cursor: pointer;
+}
